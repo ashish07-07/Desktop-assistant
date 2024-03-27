@@ -50,13 +50,13 @@ listening = False
 def start_listening():
     global listening
     listening = True
-    print(" start listening  ")
+    print(" start listening ..  ")
 
 
 def pause_listening():
     global listening
     listening = False
-    print("stopped listening")
+    print("stopped listening..")
 
 
 keyboard.add_hotkey('ctrl+alt+k', start_listening)
